@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rev-N-Rip | Home</title>
+  <meta name="description" content="Rev-N-Rip premium collector website.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="">
+  
+<header class="topbar">
+  <a href="index.html" class="brand">
+    <img src="assets/logo.webp" alt="Rev-N-Rip logo">
+    <div>
+      <div class="brand-title">Rev-N-Rip</div>
+      <span class="brand-tag">Sports Cars • Card Rips • Collector Culture</span>
+    </div>
+  </a>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="breaks.html">Live Breaks</a>
+    <a href="syndicate.html">Star Rare Syndicate</a>
+    <a href="contact.html">Contact</a>
+    <button class="openCart">Cart <span class="cartCount">0</span></button>
+  </nav>
+</header>
+
+  
+<main class="wrap section" style="padding-top:52px;">
+  <section class="hero-shell">
+    <div class="hero-content">
+      <span class="eyebrow">Main Home Page</span>
+      <h1>Where supercar energy meets the perfect rip.</h1>
+      <p>
+        Rev-N-Rip is built for collectors who love speed, shine, suspense, and a reveal worth remembering.
+        This home page leads with the neon sports-car mood: sleek, loud, premium, and built to stop the scroll.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="shop.html">Visit the Shop</a>
+        <a class="btn secondary" href="breaks.html">See Live Breaks</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>24/7</strong><span>collector storefront</span></div>
+        <div class="stat"><strong>Premium</strong><span>brand-first visuals</span></div>
+        <div class="stat"><strong>$5</strong><span>live break packs</span></div>
+        <div class="stat"><strong>Vault</strong><span>verified holder culture</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Why Rev-N-Rip</span>
+        <h2>Not just a card site. A full-on collector atmosphere.</h2>
+      </div>
+      <p>
+        The homepage stays clean and performance-inspired. No Red Ink styling here—this page is all neon motion, showroom polish, and high-attention product energy.
+      </p>
+    </div>
+    <div class="grid-3">
+      <article class="card panel-pad">
+        <h3>Designed to feel fast</h3>
+        <p>We built the main page around the visual language of modern sports cars: sharp lighting, glossy contrast, and bold focal points.</p>
+      </article>
+      <article class="card panel-pad">
+        <h3>Built for the reveal</h3>
+        <p>Every section is framed to make products feel special, from mystery packs to premium slabs and sealed drops.</p>
+      </article>
+      <article class="card panel-pad">
+        <h3>Made to convert</h3>
+        <p>The call-to-action language is sharper, the product presentation is stronger, and the path to your store is cleaner.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="home-market">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Marketplace Preview</span>
+        <h2>A taste of the shop floor.</h2>
+      </div>
+      <p>Want the full catalog? Head into the dedicated Shop page for the complete browsing experience.</p>
+    </div>
+    <div class="market-layout">
+      <aside class="card filters">
+        <input type="search" class="search" id="searchInput" placeholder="Search products...">
+        <div class="chips" id="chips"></div>
+        <p style="margin-top:16px;font-size:14px;">This section previews the catalog. The full browsing page lives on <strong>shop.html</strong>.</p>
+        <a class="btn" style="margin-top:14px;width:100%;" href="shop.html">Open Full Shop</a>
+      </aside>
+      <div class="product-grid" id="productGrid"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap grid-2">
+    <div class="card showcase-bg">
+      <span class="eyebrow">Showroom Styling</span>
+      <h3>Product presentation that feels like a launch night.</h3>
+      <p style="max-width:520px;">Not every collectible needs to be sold like a commodity. Some deserve a spotlight, a stage, and a dramatic first impression.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;">
+        <a class="btn" href="shop.html">Shop the Catalog</a>
+        <a class="btn secondary" href="contact.html">Sell a Collection</a>
+      </div>
+    </div>
+    <div class="card image-card">
+      <img src="assets/packopen.webp" alt="Rev-N-Rip pack opening visual">
+    </div>
+  </div>
+</section>
+
+  
+<footer class="wrap">
+  <img src="assets/logo.webp" alt="Rev-N-Rip emblem">
+  <div style="font-size:22px;font-weight:800;color:white;">Rev-N-Rip</div>
+  <div style="margin-top:8px;">Dream it. Drive it. Done.</div>
+  <div style="margin-top:8px;">Sports Cars • Card Breaks • Star Rare Syndicate</div>
+</footer>
+
+  
+<div class="cart-drawer" id="cartDrawer">
+  <div class="cart-backdrop" id="cartBackdrop"></div>
+  <aside class="cart-panel">
+    <div style="display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px;">
+      <h2 style="font-size:30px;">Your Cart</h2>
+      <button class="btn secondary" id="closeCart">Close</button>
+    </div>
+    <div id="cartItems"></div>
+    <div class="total"><span>Total</span><span id="cartTotal">$0.00</span></div>
+    <a class="btn" style="width:100%;" href="https://revnrip.shop" target="_blank" rel="noopener">Checkout at Revnrip.shop</a>
+  </aside>
+</div>
+<div id="toast" style="position:fixed;left:50%;bottom:20px;transform:translateX(-50%) translateY(20px);opacity:0;pointer-events:none;padding:12px 16px;border-radius:999px;background:rgba(10,6,20,.92);border:1px solid rgba(255,255,255,.08);box-shadow:var(--glow);transition:.2s ease;z-index:80;"></div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

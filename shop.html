@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rev-N-Rip | Shop</title>
+  <meta name="description" content="Rev-N-Rip premium collector website.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="">
+  
+<header class="topbar">
+  <a href="index.html" class="brand">
+    <img src="assets/logo.webp" alt="Rev-N-Rip logo">
+    <div>
+      <div class="brand-title">Rev-N-Rip</div>
+      <span class="brand-tag">Sports Cars • Card Rips • Collector Culture</span>
+    </div>
+  </a>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="breaks.html">Live Breaks</a>
+    <a href="syndicate.html">Star Rare Syndicate</a>
+    <a href="contact.html">Contact</a>
+    <button class="openCart">Cart <span class="cartCount">0</span></button>
+  </nav>
+</header>
+
+  
+<main class="wrap section" style="padding-top:52px;">
+  <section class="hero-shell shop-highlight">
+    <div class="hero-content" style="max-width:760px;">
+      <span class="eyebrow">Dedicated Shop Page</span>
+      <h1>The Rev-N-Rip shop is its own lane.</h1>
+      <p>
+        You asked to make the shop its own page—so here it is. This page is more direct, more product-focused,
+        and more clever with the wording. Less “here are some items,” more “here’s where the heat lives.”
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="https://revnrip.shop" target="_blank" rel="noopener">Go to Revnrip.shop</a>
+        <a class="btn secondary" href="#catalog">Browse On-Site Catalog</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section class="section">
+  <div class="wrap">
+    <div class="shop-note">
+      <strong>Shop language upgrade:</strong>
+      <div style="margin-top:8px;color:var(--muted);">
+        Instead of “products,” think <em>drop list</em>, <em>pit lane picks</em>, <em>vault-ready slabs</em>, and <em>sealed heat</em>.
+      </div>
+    </div>
+    <div class="shop-tiles">
+      <article class="tile"><h3>Sealed Heat</h3><p>For boxes, packs, and products meant to be ripped under bright lights.</p></article>
+      <article class="tile"><h3>Vault-Ready Slabs</h3><p>For mystery slabs and display-worthy pieces that deserve premium presentation.</p></article>
+      <article class="tile"><h3>Collector Services</h3><p>For verification, buyouts, and the moves that happen before the public sees the listing.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="catalog">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Shop Catalog</span>
+        <h2>Browse the goods. Chase the feeling.</h2>
+      </div>
+      <p>
+        This page is tuned to shopping. Cleaner copy. Sharper categories. Stronger emphasis on what feels exciting and worth clicking.
+      </p>
+    </div>
+    <div class="market-layout">
+      <aside class="card filters">
+        <input type="search" class="search" id="shopSearch" placeholder="Search the catalog...">
+        <div class="chips" id="shopChips"></div>
+        <a class="btn" style="margin-top:14px;width:100%;" href="https://revnrip.shop" target="_blank" rel="noopener">Checkout on Revnrip.shop</a>
+      </aside>
+      <div class="product-grid" id="shopGrid"></div>
+    </div>
+  </div>
+</section>
+
+  
+<footer class="wrap">
+  <img src="assets/logo.webp" alt="Rev-N-Rip emblem">
+  <div style="font-size:22px;font-weight:800;color:white;">Rev-N-Rip</div>
+  <div style="margin-top:8px;">Dream it. Drive it. Done.</div>
+  <div style="margin-top:8px;">Sports Cars • Card Breaks • Star Rare Syndicate</div>
+</footer>
+
+  
+<div class="cart-drawer" id="cartDrawer">
+  <div class="cart-backdrop" id="cartBackdrop"></div>
+  <aside class="cart-panel">
+    <div style="display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px;">
+      <h2 style="font-size:30px;">Your Cart</h2>
+      <button class="btn secondary" id="closeCart">Close</button>
+    </div>
+    <div id="cartItems"></div>
+    <div class="total"><span>Total</span><span id="cartTotal">$0.00</span></div>
+    <a class="btn" style="width:100%;" href="https://revnrip.shop" target="_blank" rel="noopener">Checkout at Revnrip.shop</a>
+  </aside>
+</div>
+<div id="toast" style="position:fixed;left:50%;bottom:20px;transform:translateX(-50%) translateY(20px);opacity:0;pointer-events:none;padding:12px 16px;border-radius:999px;background:rgba(10,6,20,.92);border:1px solid rgba(255,255,255,.08);box-shadow:var(--glow);transition:.2s ease;z-index:80;"></div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
